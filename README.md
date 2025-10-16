@@ -1,12 +1,46 @@
-# React + Vite
+# ​ MERN E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+[![Made with React](https://img.shields.io/badge/Frontend-React-blue?logo=react)](https://reactjs.org/)  
+[![Made with Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)](https://nodejs.org/)  
+[![Status](https://img.shields.io/badge/Status-Learning%20Project-blue)]()
 
-Currently, two official plugins are available:
+This is a **full-stack E-Commerce Website** built using the **MERN stack (MongoDB, Express, React, Node.js)** 🛒.  
+The project allows users to browse products, add them to the cart, and place orders, while admins can manage products, users, and orders.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ​ Live Demo  
+Check out the project here: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-green?style=for-the-badge)](YOUR_LIVE_DEMO_URL)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## ​​ Tech Stack  
+- ⚡ **Frontend:** React, Redux, Axios, React Router  
+- ⚡ **Backend:** Node.js, Express.js  
+- ⚡ **Database:** MongoDB (Mongoose)  
+- ⚡ **Styling:** CSS / Bootstrap  
+
+---
+
+## ​ Project Structure  
+```bash
+mern-ecommerce/
+│
+├── backend/             # Node.js + Express server
+│   ├── config/          # DB and environment configuration
+│   ├── controllers/     # Request handlers
+│   ├── models/          # Mongoose models
+│   ├── routes/          # Express routes
+│   └── server.js        # Backend entry point
+│
+├── frontend/            # React client
+│   ├── src/
+│   │   ├── components/  # Reusable UI components
+│   │   ├── pages/       # React pages
+│   │   ├── redux/       # Redux store & slices
+│   │   └── App.js
+│   └── package.json
+│
+└── README.md
