@@ -8,3 +8,23 @@
 This is a **full-stack E-Commerce Website** built using the **MERN stack (MongoDB, Express, React, Node.js)** 🛒.  
 The project allows users to browse products, add them to the cart, and place orders, while admins can manage products, users, and orders.
 
+## **Getting Started**
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/kochar-eshan/react-Chat-bot.git
+cd react-chatbot
+```
+2. **Install Packages**
+```bash
+npm install
+```
+3. **Run the Project**
+```bash
+npm run dev
+```
+4. **Run the Backend**
+```bash
+cd Backend
+npm run dev
+```
